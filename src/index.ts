@@ -58,5 +58,5 @@ export default async function createServer({ config }: CreateServerArgs = {}) {
     process.env.MSTODO_TOKEN_FILE = parsedConfig.tokenFilePath
   }
 
-  return mcpServer.server
+  return mcpServer
 }
