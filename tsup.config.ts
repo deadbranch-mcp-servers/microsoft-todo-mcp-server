@@ -2,6 +2,7 @@ import { defineConfig } from 'tsup'
 
 export default defineConfig({
   entry: [
+    'src/index.ts',
     'src/todo-index.ts',
     'src/cli.ts',
     'src/create-mcp-config.ts',
