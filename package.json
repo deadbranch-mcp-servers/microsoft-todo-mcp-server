@@ -3,7 +3,7 @@
   "version": "1.1.2",
   "description": "Microsoft Todo MCP service for Claude and Cursor. Fork of @jhirono/todomcp",
   "main": "dist/todo-index.js",
-  "module": "src/index.ts",
+  "module": "dist/todo-index.js",
   "dependencies": {
     "@azure/msal-node": "^1.18.4",
     "@modelcontextprotocol/sdk": "^1.13.2",
