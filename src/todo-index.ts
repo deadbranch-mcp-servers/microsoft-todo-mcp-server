@@ -22,6 +22,8 @@ const server = new McpServer({
   version: "1.0.0",
 })
 
+export const mcpServer = server
+
 // Helper function for making Microsoft Graph API requests
 async function makeGraphRequest<T>(url: string, token: string, method = "GET", body?: any): Promise<T | null> {
   const headers = {
@@ -125,7 +127,7 @@ async function getAccessToken(): Promise<string | null> {
 }
 
 // Server configuration type
-interface ServerConfig {
+export interface ServerConfig {
   accessToken?: string
   refreshToken?: string
   tokenFilePath?: string
