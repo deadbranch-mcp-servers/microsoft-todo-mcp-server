@@ -1,19 +1,14 @@
-# Microsoft To Do MCP
+# Life Management MCP
 
-[![CI](https://github.com/jordanburke/microsoft-todo-mcp-server/actions/workflows/ci.yml/badge.svg)](https://github.com/jordanburke/microsoft-todo-mcp-server/actions/workflows/ci.yml)
-[![npm version](https://badge.fury.io/js/microsoft-todo-mcp-server.svg)](https://www.npmjs.com/package/microsoft-todo-mcp-server)
+Powered by Microsoft Todo
 
-A Model Context Protocol (MCP) server that enables AI assistants like Claude and Cursor to interact with Microsoft To Do via the Microsoft Graph API. This service provides comprehensive task management capabilities through a secure OAuth 2.0 authentication flow.
+Use MCP-enabled assistants to manage tasks, projects, and daily activities using natural language.
 
 ## Features
 
-- **15 MCP Tools**: Complete task management functionality including lists, tasks, checklist items, and organization features
-- **Seamless Authentication**: Automatic token refresh with zero manual intervention
-- **OAuth 2.0 Authentication**: Secure authentication with automatic token refresh
-- **Microsoft Graph API Integration**: Direct integration with Microsoft's official API
-- **Multi-tenant Support**: Works with personal, work, and school Microsoft accounts
-- **TypeScript**: Fully typed for reliability and developer experience
-- **ESM Modules**: Modern JavaScript module system
+- **Tools for AI Assistants**: Make lists, tasks, checklist items, and organization features available for assistants to use
+- **Modern Authentication**: Automatic OAuth 2.0 authentication
+- **Microsoft Graph API Backend**: Powered by Microsoft Azure's knowledge graph technology
 
 ## Prerequisites
 
@@ -46,7 +41,7 @@ The package provides three command aliases:
 ### Option 2: Clone and Run Locally
 
 ```bash
-git clone https://github.com/jordanburke/microsoft-todo-mcp-server.git
+git clone https://github.com/deadbranch-mcp-servers/microsoft-todo-mcp-server.git
 cd microsoft-todo-mcp-server
 pnpm install
 pnpm run build
@@ -127,7 +122,7 @@ export MS_TODO_REFRESH_TOKEN=your_refresh_token
 
 ```bash
 # If installed globally
-git clone https://github.com/jordanburke/microsoft-todo-mcp-server.git
+git clone https://github.com/deadbranch-mcp-servers/microsoft-todo-mcp-server.git
 cd microsoft-todo-mcp-server
 pnpm install
 pnpm run auth
@@ -341,5 +336,5 @@ MIT License - See [LICENSE](LICENSE) file for details
 
 ## Support
 
-- [GitHub Issues](https://github.com/jordanburke/microsoft-todo-mcp-server/issues)
+- [GitHub Issues](https://github.com/deadbranch-mcp-servers/microsoft-todo-mcp-server/issues)
 - [npm Package](https://www.npmjs.com/package/microsoft-todo-mcp-server)

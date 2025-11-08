@@ -1,7 +1,7 @@
 {
   "name": "microsoft-todo-mcp-server",
-  "version": "1.1.2",
-  "description": "Microsoft Todo MCP service for Claude and Cursor. Fork of @jhirono/todomcp",
+  "version": "2025.11.08",
+  "description": "Life activity management, poweered by Microsoft Todo.",
   "main": "dist/todo-index.js",
   "module": "dist/todo-index.js",
   "dependencies": {
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jordanburke/microsoft-todo-mcp-server.git"
+    "url": "git+https://github.com/deadbranch-mcp-servers/microsoft-todo-mcp-server.git"
   },
   "keywords": [
     "mcp",
@@ -43,12 +43,16 @@
     "microsoft-todo",
     "todo"
   ],
-  "author": "Jordan Burke <jordan.burke@gmail.com>",
-  "license": "MIT",
+  "author": "DeadBranches Contributors <https://github.com/DeadBranches>",
+  "contributors": [
+    { "name": "Jordan Burke", "url": "https://github.com/jordanburke" },
+    { "name": "Jiro Hirono", "url": "https://github.com/jhirono" }
+  ],
+  "license": "MIT and ISC",
   "bugs": {
-    "url": "https://github.com/jordanburke/microsoft-todo-mcp-server/issues"
+    "url": "https://github.com/deadbranch-mcp-servers/microsoft-todo-mcp-server/issues"
   },
-  "homepage": "https://github.com/jordanburke/microsoft-todo-mcp-server#readme",
+  "homepage": "https://github.com/deadbranch-mcp-servers/microsoft-todo-mcp-server#readme",
   "devDependencies": {
     "@smithery/cli": "^1.4.6",
     "@types/express": "^5.0.3",
