@@ -1,7 +1,7 @@
 {
   "name": "microsoft-todo-mcp-server",
   "version": "1.1.2",
-  "description": "Microsoft Todo MCP service for Claude and Cursor. Fork of @jhirono/todomcp",
+  "description": "Life activity management, poweered by Todo.",
   "main": "dist/todo-index.js",
   "module": "dist/todo-index.js",
   "dependencies": {
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jordanburke/microsoft-todo-mcp-server.git"
+    "url": "git+https://github.com/deadbranch-mcp-servers/microsoft-todo-mcp-server.git"
   },
   "keywords": [
     "mcp",
