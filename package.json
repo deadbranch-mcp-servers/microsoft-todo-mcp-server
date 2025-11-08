@@ -1,6 +1,6 @@
 {
   "name": "microsoft-todo-mcp-server",
-  "version": "1.1.2",
+  "version": "2025.11.08",
   "description": "Life activity management, poweered by Microsoft Todo.",
   "main": "dist/todo-index.js",
   "module": "dist/todo-index.js",
